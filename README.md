@@ -1,4 +1,4 @@
-# Download-file-using-AIOQUIC
+# Download-files-using-AIOQUIC
 To download a file using AIOQUIC library follow these below steps
 1.Copy files from the folder(original files folder) and place  them in /root/aioquic/examples/htdocs/ 
 step1 must be done on machine which you want to run your server
