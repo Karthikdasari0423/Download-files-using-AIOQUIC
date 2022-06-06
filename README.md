@@ -9,12 +9,12 @@ step1 must be done on machine which you want to run your server
 4.you will notice file will be downloaded and sha256um and original file contents and downloaded file also will be same
 
 OR 
-another way is to
+Another way is to
 
 1.Open demo.py from "/root/aioquic/examples/demo.py"
 2.Make changes in the line number "20" from "demo.py"
 htdocs to location of files present in your machine
 [ STATIC_ROOT = os.environ.get("STATIC_ROOT", os.path.join(ROOT, "htdocs"))] to [STATIC_ROOT = os.environ.get("STATIC_ROOT", os.path.join(ROOT, "/var/www/html/"))]
-in my case all my files are present in /var/www/html,so i have changed from "htdocs" to "/var/www/html/"
+In my case all my files are present in /var/www/html,so i have changed from "htdocs" to "/var/www/html/"
 This all changes must be done Server machine where your http3_server.py is running
 [python examples/http3_server.py --certificate tests/ssl_cert.pem --private-key tests/ssl_key.pem -v]
