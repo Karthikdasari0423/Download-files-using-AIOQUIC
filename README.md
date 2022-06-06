@@ -11,8 +11,8 @@ step1 must be done on machine which you want to run your server
 OR 
 another way is to
 
-Open demo.py from "/root/aioquic/examples/demo.py"
-Make changes in the line number "20" from "demo.py"
+1.Open demo.py from "/root/aioquic/examples/demo.py"
+2.Make changes in the line number "20" from "demo.py"
 htdocs to location of files present in your machine
 [ STATIC_ROOT = os.environ.get("STATIC_ROOT", os.path.join(ROOT, "htdocs"))] to [STATIC_ROOT = os.environ.get("STATIC_ROOT", os.path.join(ROOT, "/var/www/html/"))]
 in my case all my files are present in /var/www/html,so i have changed from "htdocs" to "/var/www/html/"
