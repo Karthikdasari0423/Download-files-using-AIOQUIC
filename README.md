@@ -18,3 +18,8 @@ htdocs to location of files present in your machine
 In my case all my files are present in /var/www/html,so i have changed from "htdocs" to "/var/www/html/"
 This all changes must be done Server machine where your http3_server.py is running
 [python examples/http3_server.py --certificate tests/ssl_cert.pem --private-key tests/ssl_key.pem -v]
+
+
+
+
+Note:-Currently using "Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-113-generic x86_64)" terminal,"Python 3.8.10" version for running both http3_client.py and http3_server.py to download a file by using above scenario and Unable to create Multiple streams in a Single connection.
